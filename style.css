@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html , body {
+    height: 100%;
+    width: 100%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./Leonardo_Phoenix_A_visually_captivating_hightech_background_fo_3.jpg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    position: relative;
+}
+.container{
+    background-color: rgba(0, 0,0,0.7);
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    left: 15%;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+
+}
+.container h1 {
+    font-size: 50px;
+    font-weight: 900;
+    letter-spacing: 4px;
+}
+button{
+    padding: 15px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    transition: all 0.5s;
+    font-size: 18px;
+}
+button:hover{
+    background-color: #2a642c;
+}
